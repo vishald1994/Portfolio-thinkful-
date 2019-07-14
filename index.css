@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin: 0;
+  margin-left: 1.5rem;
+}
+
+html {
+  padding: 0;
+  padding-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: rgba(70, 121, 160, 0.541);
+  overflow-y: scroll;
+  text-align: center;
+}
+
+header {
+  padding: 3rem 0;
+}
+
+section {
+  padding: 3rem 0;
+  background-color: rgba(63, 88, 143, 0.521);
+}
+
+section:nth-child(even) {
+  background-color: rgba(64, 64, 82, 0.315);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.nav-list li:first-child {
+  margin-left: 0;
+}
+
+.tech-list {
+  list-style: none;
+}
+
+.tech-list li {
+  display: inline-block;
+}
+
+.tech-list li:first-child {
+  margin-left: 0;
+}
+
+footer {
+  padding: 3rem 0;
+  background-color: beige;
+}
