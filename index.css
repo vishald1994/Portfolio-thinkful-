@@ -2,6 +2,16 @@ html {
   box-sizing: border-box;
 }
 
+.contact{
+  text-decoration: none;
+  color:black;
+  font-size: 15px;
+}
+.contact:hover{
+  color:white;
+}
+
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -11,6 +21,8 @@ p, ul, ol, li {
   margin: 0;
   padding: 0;
   margin-bottom: 1.5rem;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 li {
@@ -47,7 +59,8 @@ body {
 }
 
 img {
-  max-width: 100%;
+ max-width: 100%;
+ align-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,6 +80,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   line-height: 1.5rem;
+  text-align: center;
 }
 
 h4 {
@@ -77,6 +91,8 @@ h4 {
 .profile-pic {
   border-radius: 50%;
 }
+  nav {
+    margin-bottom: 50px;
 
 .nav-list {
   list-style: none;
