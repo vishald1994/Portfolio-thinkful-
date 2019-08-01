@@ -46,6 +46,7 @@ header {
 
 section {
   padding: 3rem 0;
+  max-width: 100%;
   background-color: rgba(63, 88, 143, 0.521);
 }
 
@@ -97,6 +98,7 @@ h4 {
 
 footer {
   padding: 3rem 0;
-  background-color: beige;
+  text-align: center;
+  background-color:rgba(96, 172, 243, 0.384)
 }
 
