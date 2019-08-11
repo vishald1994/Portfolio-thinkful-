@@ -2,15 +2,26 @@ html {
   box-sizing: border-box;
 }
 
-.contact{
+.contact a{
   text-decoration: none;
   color:black;
   font-size: 15px;
+  margin: 10px;
 }
+
 .contact:hover{
   color:white;
 }
 
+.git a{
+  text-decoration: none;
+  color:black;
+  font-size: 15px;
+  margin: 4px;
+}
+.git:hover{
+  color:white;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -45,7 +56,8 @@ header {
 }
 
 section {
-  padding: 3rem 0;
+  padding: 3rem 4rem;
+
   max-width: 100%;
   background-color: rgba(63, 88, 143, 0.521);
 }
