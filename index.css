@@ -2,11 +2,11 @@ html {
   box-sizing: border-box;
 }
 .rotateimg90 {
-  -webkit-transform:rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
+  -webkit-transform:rotate(1800deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .contact a{
   text-decoration: none;
