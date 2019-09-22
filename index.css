@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
 }
-.rotateimg180 {
+.rotateimg270 {
   -webkit-transform:rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
